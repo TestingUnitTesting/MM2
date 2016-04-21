@@ -18,6 +18,8 @@ public final class EasyMaths {
      */
     public static boolean equal(int[] array1, int[] array2) 
     {
+       int x = 0;
+       
         if ((array1 == null) || (array2 == null)) 
 {
                 throw new IllegalArgumentException("null argument");
